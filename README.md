@@ -2,10 +2,6 @@
 
 A lightweight, self-hosted flashcard app. Create decks, add cards, and quiz yourself. This repository contains a Vite + React frontend and a minimal Express backend for storing decks locally.
 
-## Key points
-- All generative AI code and dependencies have been removed.
-- Decks are stored on a simple backend (file-based JSON store) in `backend/data/decks.json`.
-
 ## Quick start (local)
 
 1) Start the backend (port 4000):
@@ -45,29 +41,6 @@ curl http://localhost:4000/api/decks
 - `services/storage.ts` — frontend persistence layer (talks to backend)
 - `backend/index.js` — minimal Express backend storing data at `backend/data/decks.json`
 
-## Notes
-- If you deploy the backend publicly, secure it with authentication and HTTPS.
-- If you want the README to replace the repository README, tell me and I will rename it to `README.md` directly.
-
-## License
-MIT
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
-
-# Run and deploy your FlashPulse app
-
-This contains everything you need to run the frontend locally and a simple self-hosted backend to store decks.
-
-## Run Locally
-
-**Prerequisites:** Node.js
-
-1. Install frontend dependencies:
-
-```bash
-npm install
-```
 
 2. Start the backend (from the project's root):
 
@@ -79,14 +52,6 @@ npm start
 
 The backend will listen on port 4000 by default and exposes a simple JSON API at `/api/decks`.
 
-3. Start the frontend (in a new terminal):
-
-```bash
-cd ..
-npm run dev
-```
-
-The frontend will fetch and persist decks to the backend API.
 
 ## Visual User Guide
 
