@@ -41,6 +41,27 @@ curl http://localhost:4000/api/decks
 - `services/storage.ts` — frontend persistence layer (talks to backend)
 - `backend/index.js` — minimal Express backend storing data at `backend/data/decks.json`
 
+<<<<<<< HEAD
+=======
+## Notes
+- If you deploy the backend publicly, secure it with authentication and HTTPS.
+- If you want the README to replace the repository README, tell me and I will rename it to `README.md` directly.
+
+
+# Run and deploy your FlashPulse app
+
+This contains everything you need to run the frontend locally and a simple self-hosted backend to store decks.
+
+## Run Locally
+
+**Prerequisites:** Node.js
+
+1. Install frontend dependencies:
+
+```bash
+npm install
+```
+>>>>>>> 8b9a6f04de2750c055f43d5fd0a0b76f95afb60e
 
 2. Start the backend (from the project's root):
 
