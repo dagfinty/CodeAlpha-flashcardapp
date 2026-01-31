@@ -2,10 +2,6 @@
 
 A lightweight, self-hosted flashcard app. Create decks, add cards, and quiz yourself. This repository contains a Vite + React frontend and a minimal Express backend for storing decks locally.
 
-## Key points
-- All generative AI code and dependencies have been removed.
-- Decks are stored on a simple backend (file-based JSON store) in `backend/data/decks.json`.
-
 ## Quick start (local)
 
 1) Start the backend (port 4000):
@@ -49,11 +45,6 @@ curl http://localhost:4000/api/decks
 - If you deploy the backend publicly, secure it with authentication and HTTPS.
 - If you want the README to replace the repository README, tell me and I will rename it to `README.md` directly.
 
-## License
-MIT
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
 
 # Run and deploy your FlashPulse app
 
