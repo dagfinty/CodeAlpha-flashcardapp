@@ -1,0 +1,26 @@
+[
+  {
+    "id": "6045ffce-6681-42d1-afcf-e59b305c9c85",
+    "title": "sxsxcs",
+    "description": "scss",
+    "color": "bg-rose-500",
+    "cards": [
+      {
+        "id": "84adc397-73fb-4a16-a89e-8f6edbadada3",
+        "front": "scsc",
+        "back": "cscs"
+      },
+      {
+        "id": "838b4e6a-57e4-472f-a4a6-a8acc62c4c39",
+        "front": "scss",
+        "back": "cscsc"
+      },
+      {
+        "id": "4e19014f-2e14-4199-a936-786f393766e6",
+        "front": "cssscs",
+        "back": "cscscsc"
+      }
+    ],
+    "createdAt": 1769884793877
+  }
+]

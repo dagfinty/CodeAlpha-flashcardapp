@@ -1,0 +1,5 @@
+{
+  "name": "FlashPulse",
+  "description": "A playful and interactive flashcard application that lets users create custom decks and quiz themselves with delightful animations.",
+  "requestFramePermissions": []
+}
